@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply bg-corPrimaria
+}
+
+.container2{
+    @apply w-full bg-corSecundaria pb-14
+}
+
+.box{
+    @apply grid grid-flow-col gap-5 p-4
+}
+
+.energias{
+    @apply bg-corTerciaria w-[252px] h-[320px] m-auto grid grid-flow-row justify-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 
+}

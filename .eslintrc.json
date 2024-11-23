@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "next/core-web-vitals",  // ou "next/next"
+    "plugin:@typescript-eslint/recommended", // Se você está usando TypeScript
+    "prettier"
+  ],
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    // suas regras personalizadas aqui, se houver
+  },
+  "parserOptions": {
+    "project": ["./tsconfig.json"],
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": {}
+    }
+  }
+}
